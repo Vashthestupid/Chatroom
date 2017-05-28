@@ -1,0 +1,70 @@
+header h1 {
+   background-color: #d6a571;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   padding: 20px;
+   text-align: center;
+} header #reception {
+   background-color: #48c8d6;
+}
+
+form {
+   background-color: #48c8d6;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+} input {
+   margin-top: 20px;
+} textarea {
+   margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+table{
+   background-color : #d6a571;
+   border: 3px solid black;
+   border-radius: 25px;
+   box-shadow: 10px 10px 5px #888888;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-top: 20px;
+} td {
+   text-align: center;
+   width:160px;
+} th {
+   width:160px;
+}
+
+@media screen and (max-width: 1920px){
+  textarea{
+    height: 15px;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 600px){
+  td {
+    width: 590px;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px){
+  td{
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  td {
+    width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+  td {
+    width: 1356px;
+  }
+}
