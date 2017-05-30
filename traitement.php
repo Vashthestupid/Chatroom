@@ -1,5 +1,5 @@
-<?php 
-include('config.php');
+<?php
+include('connexion.php');
 
 $req = $bdd->prepare('INSERT INTO message (auteur,message,date_envoi) VALUES (?,?,NOW())');
 
